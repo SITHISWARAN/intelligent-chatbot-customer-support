@@ -1,7 +1,5 @@
-# intelligent-chatbot-customer-support
-AI-based chatbot for automated customer support using NLP
 # Intelligent Chatbot for Customer Support
-
+AI-based chatbot for automated customer support using NLP
 ## Project Overview
 This project involves the development of an **AI-driven chatbot** that leverages **Natural Language Processing (NLP)** and **Machine Learning** to handle customer queries automatically. The chatbot can classify queries, detect sentiment, and improve over time through continuous learning.
 
