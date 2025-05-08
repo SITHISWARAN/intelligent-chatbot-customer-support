@@ -1,23 +1,83 @@
-# Intelligent Chatbot for Customer Support
-AI-based chatbot for automated customer support using NLP
-## Project Overview
-This project involves the development of an **AI-driven chatbot** that leverages **Natural Language Processing (NLP)** and **Machine Learning** to handle customer queries automatically. The chatbot can classify queries, detect sentiment, and improve over time through continuous learning.
+# 🤖 AI Chatbot for Customer Support
 
-### Features:
-- **Multi-class intent classification**: Classifies user queries into predefined categories such as 'refund request', 'technical issue', etc.
-- **Sentiment analysis**: Identifies the sentiment of the user query (positive, negative, neutral).
-- **24/7 Availability**: Can interact with users anytime, offering instant responses.
-- **Proactive Engagement**: Encourages user feedback to enhance future interactions.
-
-### Technologies Used:
-- **Python**
-- **spaCy** for text processing
-- **Hugging Face Transformers (BERT)** for NLP
-- **Scikit-learn** for machine learning algorithms
-- **Streamlit** for deploying the chatbot interface
-- **Heroku** for cloud deployment
+This project aims to revolutionize customer support by creating an AI-driven chatbot that can automatically classify customer queries into intents using Natural Language Processing (NLP). The chatbot helps businesses provide 24/7 assistance, reduce response times, and improve customer satisfaction.
 
 ---
 
-## Project Structure
+## 🚀 Features
 
+- Intent classification using advanced NLP models
+- Preprocessing pipeline: cleaning, lemmatization, and vectorization (TF-IDF)
+- Trained on real and synthetic customer support data
+- Text-based chatbot interface (runs directly in Google Colab)
+- Fully offline: no external deployment required
+
+---
+
+## 🛠️ Technologies Used
+
+- Python
+- Scikit-learn
+- spaCy
+- Joblib
+- Pandas, NumPy
+- Google Colab
+
+---
+
+## 🧠 Workflow
+
+1. **Data Preparation**  
+   Load a dataset of labeled customer queries (intent classification only).
+
+2. **Preprocessing**  
+   Clean text, remove stop words, and apply lemmatization.
+
+3. **Vectorization**  
+   TF-IDF vectorization is applied to convert text into numerical format.
+
+4. **Model Training**  
+   Logistic Regression and Random Forest used for classification. BERT optionally used for fine-tuning.
+
+5. **Evaluation**  
+   Accuracy, F1-score, and confusion matrix used to evaluate performance.
+
+6. **Chatbot Interface**  
+   Run a text-based chatbot directly in Colab and interact with the model.
+
+---
+
+## 📁 Files in This Repository
+
+| File               | Description                                      |
+|--------------------|--------------------------------------------------|
+| `dataset.csv`      | Sample dataset with customer queries and intents |
+| `source_code.py`   | Code to train the model and save artifacts       |
+| `chatbot_model.pkl`| Trained intent classification model              |
+| `tfidf_vectorizer.pkl` | Vectorizer used to process user queries       |
+| `label_encoder.pkl`| Label encoder for converting labels              |
+| `chatbot_colab_demo.py` | Full Colab chatbot script                    |
+| `README.md`        | This file                                        |
+
+---
+
+## 📦 How to Run (Google Colab)
+
+1. Upload `chatbot_model.pkl`, `tfidf_vectorizer.pkl`, and `label_encoder.pkl` to Colab.
+2. Run `chatbot_colab_demo.py` to start chatting.
+3. No need for Streamlit or ngrok—everything runs in the notebook.
+
+---
+
+## 👤 Team Members
+
+- AAA – Project Lead & Model Integration
+- BBB – Data Collection & Preprocessing
+- CCC – Conversational Design
+- DDD – Testing & Evaluation
+
+---
+
+## 📬 License
+
+This project is open for academic and non-commercial use only.
