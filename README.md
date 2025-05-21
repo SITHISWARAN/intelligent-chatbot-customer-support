@@ -52,8 +52,7 @@ This project aims to revolutionize customer support by creating an AI-driven cha
 | File               | Description                                      |
 |--------------------|--------------------------------------------------|
 | `dataset.csv`      | Sample dataset with customer queries and intents |
-| `source_code.py`   | Code to train the model and save artifacts       |
-for converting labels              |
+| `source_code.py`   | Code to train the model and save artifacts     |
 | `chatbot_colab_demo.py` | Full Colab chatbot script                    |
 | `README.md`        | This file                                        |
 
