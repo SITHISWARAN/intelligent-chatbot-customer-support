@@ -53,9 +53,7 @@ This project aims to revolutionize customer support by creating an AI-driven cha
 |--------------------|--------------------------------------------------|
 | `dataset.csv`      | Sample dataset with customer queries and intents |
 | `source_code.py`   | Code to train the model and save artifacts       |
-| `chatbot_model.pkl`| Trained intent classification model              |
-| `tfidf_vectorizer.pkl` | Vectorizer used to process user queries       |
-| `label_encoder.pkl`| Label encoder for converting labels              |
+for converting labels              |
 | `chatbot_colab_demo.py` | Full Colab chatbot script                    |
 | `README.md`        | This file                                        |
 
@@ -63,20 +61,9 @@ This project aims to revolutionize customer support by creating an AI-driven cha
 
 ## 📦 How to Run (Google Colab)
 
-1. Upload `chatbot_model.pkl`, `tfidf_vectorizer.pkl`, and `label_encoder.pkl` to Colab.
-2. Run `chatbot_colab_demo.py` to start chatting.
-3. No need for Streamlit or ngrok—everything runs in the notebook.
+1. Upload `Dataset.csv`,file to Colab.
+2. Run `Source code.py` to start chatting.
 
----
-
-## 👤 Team Members
-
-- AAA – Project Lead & Model Integration
-- BBB – Data Collection & Preprocessing
-- CCC – Conversational Design
-- DDD – Testing & Evaluation
-
----
 
 ## 📬 License
 
